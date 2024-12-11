@@ -38,7 +38,7 @@ class StartScreen extends StatelessWidget {
                   width: 1.0, // Largura da borda
                 ),
               ),
-              child: Column(
+              child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [const Center(
                   child: const Text(
@@ -70,7 +70,7 @@ class StartScreen extends StatelessWidget {
                   width: 1.0, // Largura da borda
                 ),
               ),
-              child: Column(
+              child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [const Center(
                   child: const Text(
@@ -103,7 +103,7 @@ class StartScreen extends StatelessWidget {
                   width: 1.0, // Largura da borda
                 ),
               ),
-              child: Column(
+              child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [const Center(
                   child: const Text(

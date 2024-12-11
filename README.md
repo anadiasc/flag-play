@@ -1,16 +1,9 @@
-# flag_play
+# Flag Play
 
-A new Flutter project.
+#### Este é um projeto desenvolvido em Flutter com o objetivo de criar um jogo educativo que desafia você a identificar bandeiras de diferentes países de forma divertida e interativa. As perguntas são aleatórias e acompanhadas de feedback visual imediato para respostas corretas ou incorretas, tornando a experiência mais dinâmica. Ao final, o jogo exibe sua pontuação total, permitindo que você acompanhe seu progresso enquanto aprende mais sobre as bandeiras do mundo.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<p align="center">
+  <img src="assets/printscreen/inicio.png" alt="Imagem 1" width="30%">
+  <img src="assets/printscreen/quiz.png" alt="Imagem 2" width="30%">
+  <img src="assets/printscreen/finalizado.png" alt="Imagem 3" width="30%">
+</p>

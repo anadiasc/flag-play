@@ -3107,20 +3107,38 @@ class _QuestionScreenState extends State<QuestionScreen> {
       context: context,
       barrierDismissible: false,
       builder: (BuildContext context) {
-        return AlertDialog(
-          title: const Text('Jogo Finalizado!'),
-          content: Text('Você acertou $_score de ${_questions.length} perguntas.'),
-          actions: [
-            TextButton(
-              onPressed: () {
-                Navigator.of(context).pop();
-                Navigator.of(context).pop();
-              },
-              child: const Text('Sair'),
-            ),
-          ],
-        );
-      },
+            return AlertDialog(
+                title: const Center(child: Text(
+                        'Jogo Finalizado!', 
+                        style: TextStyle(fontWeight: FontWeight.bold),
+                        )
+                    ), 
+                content: Column(
+                mainAxisSize: MainAxisSize.min, 
+                mainAxisAlignment: MainAxisAlignment.center, 
+                crossAxisAlignment: CrossAxisAlignment.center, 
+                children: [
+                    Text('Você acertou $_score de ${_questions.length} bandeiras.'),
+                ],
+                ),
+                actions: [
+                Center( 
+                    child: TextButton(
+                    onPressed: () {
+                        Navigator.of(context).pop();
+                        Navigator.of(context).pop();
+                    },
+                    child: const Text('Sair', style: TextStyle(fontWeight: FontWeight.bold),),
+                    style: TextButton.styleFrom(
+                        backgroundColor: Colors.red,
+                        foregroundColor: Colors.white,
+                    ), 
+                    
+                    ),
+                ),
+                ],
+            );
+        },
     );
   }
 
